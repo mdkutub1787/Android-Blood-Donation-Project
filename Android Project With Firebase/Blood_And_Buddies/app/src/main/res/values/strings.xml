@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Blood And Buddies</string>
+    <string name="app_name"> Blood Donation app</string>
 
     <string name="about">Blood is a body fluid in the circulatory system of humans and other vertebrates that delivers necessary substances such as nutrients and oxygen to the cells, and transports metabolic waste products away from those same cells. Blood is composed of blood cells suspended in blood plasma.</string>
     <string name="bloodtype">The 4 different blood groups are: <b>\n\tA\n\tB\n\tAB\n\tO\n\n</b> Each type is either Rh-positive or Rh-negative. \n\n O negative blood can be given to anybody if necessary, but it is always preferable to match the exact blood group to prevent dangerous reactions.</string>
