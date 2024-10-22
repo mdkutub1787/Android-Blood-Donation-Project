@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "684931313594",
+    "firebase_url": "https://blood-870bf-default-rtdb.firebaseio.com",
+    "project_id": "blood-870bf",
+    "storage_bucket": "blood-870bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684931313594:android:df1c139a186e43cdbb7783",
+        "android_client_info": {
+          "package_name": "com.kutub.bloodandbuddies"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiXZPbYnoi2QP4o2LsNW9aV_JulZhs030"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
