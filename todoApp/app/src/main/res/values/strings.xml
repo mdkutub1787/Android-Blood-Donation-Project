@@ -2,9 +2,12 @@
     <string name="app_name">todoApp</string>
 
     <string-array name="todo_types">
-        <item>Personal</item>
-        <item>Work</item>
+        <item>Todo Type</item> <!-- This is the hint item -->
+        <item>Study</item>
+        <item>Outing</item>
+        <item>Date</item>
+        <item>Meetup</item>
         <item>Shopping</item>
-        <item>Errands</item>
+        <item>Tour</item>
     </string-array>
 </resources>

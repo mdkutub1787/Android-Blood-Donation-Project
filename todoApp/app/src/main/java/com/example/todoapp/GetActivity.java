@@ -1,5 +1,6 @@
 package com.example.todoapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
@@ -14,6 +15,7 @@ import com.example.todoapp.adapter.TodoAdapter;
 import com.example.todoapp.api.GetApi;
 import com.example.todoapp.apiClient.ApiClient;
 import com.example.todoapp.model.TodoModel;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.List;
 
@@ -65,6 +67,14 @@ public class GetActivity extends AppCompatActivity {
             public void onFailure(Call<List<TodoModel>> call, Throwable t) {
 
             }
+        });
+
+        // FloatingActionButton click listener
+        FloatingActionButton fabPost = findViewById(R.id.fabPost);
+        fabPost.setOnClickListener(view -> {
+            // Navigate to PostActivity when FAB is clicked
+            Intent intent = new Intent(GetActivity.this, PostActivity.class);
+            startActivity(intent);
         });
 
 

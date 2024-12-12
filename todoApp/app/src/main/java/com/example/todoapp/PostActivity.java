@@ -1,6 +1,7 @@
 package com.example.todoapp;
 
 import android.app.DatePickerDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -109,7 +110,11 @@ public class PostActivity extends AppCompatActivity {
             public void onResponse(Call<Void> call, Response<Void> response) {
                 if (response.isSuccessful()) {
                     Toast.makeText(PostActivity.this, "Todo created successfully", Toast.LENGTH_SHORT).show();
-                    finish(); // Close activity after submission
+
+                    // Navigate to GetActivity after successful creation
+                    Intent intent = new Intent(PostActivity.this, GetActivity.class);
+                    startActivity(intent);
+                    finish(); // Close the current activity
                 } else {
                     Toast.makeText(PostActivity.this, "Failed to create Todo", Toast.LENGTH_SHORT).show();
                 }

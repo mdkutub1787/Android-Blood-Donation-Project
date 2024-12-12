@@ -38,6 +38,7 @@
     <!-- Dropdown for Todotype -->
     <Spinner
         android:id="@+id/spinnerTodotype"
+        android:hint="Enter Todo Type"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
@@ -51,17 +52,17 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="High" />
+            android:text="Priority High" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Medium" />
+            android:text="Priority Medium" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Low" />
+            android:text="Priority Low" />
     </RadioGroup>
 
     <!-- Submit Button -->
