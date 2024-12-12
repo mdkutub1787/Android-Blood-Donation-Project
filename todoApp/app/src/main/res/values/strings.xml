@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">todoApp</string>
+
+    <string-array name="todo_types">
+        <item>Personal</item>
+        <item>Work</item>
+        <item>Shopping</item>
+        <item>Errands</item>
+    </string-array>
+</resources>
